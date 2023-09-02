@@ -22,4 +22,8 @@ tsconfig.json
 
     yarn add eslint-config-prettier -D
 
-## commitlint git 使用规范
+## commit lint git 使用规范
+    网站：https://commitlint.js.org/#/
+    yarn add @commitlint/cli @commitlint/config-conventional
+    echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitlint.config.js
+
