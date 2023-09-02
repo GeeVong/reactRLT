@@ -9,6 +9,7 @@ package.json
 tsconfig.json
     ts配置
 
+# 配置 eslint、 prettier 和 commitlint 规范工程
 ## prettier 格式化工具使用
     yarn add --dev --exact prettier
     echo {}> .prettierrc.json
